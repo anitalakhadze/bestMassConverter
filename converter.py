@@ -1,7 +1,3 @@
-
-
-
-
 unit = input("T or KG? ")
 amount = float(input("Amount: "))
 
@@ -9,8 +5,7 @@ if unit == "T":
 	print(f"{amount * 1000} Kg.")
 
 elif unit == "KG":
-	print(f"{amount / 1000} Kg.")
+	print(f"{amount / 1000} T.")
 
 else:
-	print("Error!")
-	
+	print("Sorry, only T or KG units are supported at the moment!")
